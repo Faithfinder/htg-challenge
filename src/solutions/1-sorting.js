@@ -1,3 +1,17 @@
+export const createRandomIntegerArray = (
+  size = 100,
+  lowestInteger = 1,
+  highestInteger = 99
+) => {
+  return Array.from({ length: size }, () =>
+    getRandomInRange(lowestInteger, highestInteger)
+  );
+
+  function getRandomInRange(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+};
+
 export const quickSort = originalArray => {
   const sortedArray = [...originalArray];
   const stack = [];
