@@ -12,9 +12,9 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app <br/>
+Runs the app as a website<br/>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm test`
 
-Launches the test runner
+Launches the test runner that lets you evaluate most of the code
